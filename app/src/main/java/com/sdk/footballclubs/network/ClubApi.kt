@@ -11,4 +11,5 @@ interface ClubApi {
 
     @GET("clublist/{id}")
     suspend fun getClubById(@Path("id") id: Int): Club
+
 }

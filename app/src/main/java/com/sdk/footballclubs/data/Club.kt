@@ -6,5 +6,5 @@ data class Club(
     val desc: String,
     val leagueName: String,
     val rating: Int,
-    val imageUrl: String
+    val imageUrl: String,
 )

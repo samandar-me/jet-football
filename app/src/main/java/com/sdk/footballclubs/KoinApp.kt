@@ -9,6 +9,7 @@ class KoinApp: Application() {
         super.onCreate()
         startKoin {
             modules(myModule)
+
         }
     }
 }

@@ -22,7 +22,7 @@ val myModule = module {
     }
 }
 
-inline fun provideClubApi(): ClubApi {
+fun provideClubApi(): ClubApi {
     return Retrofit.Builder()
         .baseUrl("http://192.168.43.110:8080/")
         .addConverterFactory(GsonConverterFactory.create())
